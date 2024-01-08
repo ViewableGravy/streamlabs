@@ -1,0 +1,22 @@
+{
+  "name": "streamlabs",
+  "module": "src/index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run src/index.ts 2> /dev/null",
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@types/sockjs": "^0.3.36",
+    "@types/sockjs-client": "^1.5.4",
+    "json-rpc-2.0": "^1.7.0",
+    "sockjs": "^0.3.24",
+    "sockjs-client": "^1.6.1",
+    "socks": "^2.7.1"
+  }
+}
